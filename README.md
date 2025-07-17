@@ -5,9 +5,14 @@ This project is part of a process to analyze smartphone specifications and prici
 =========== Folder & File Contents ===========
 
 File Name / Folder Description
-- first_data.csv Initial dataset of popular mobile phones
-- cleaned_mobile_data.csv Cleaning dataset
-- analyze_tag.py Analyzes launched, rumored, and upcoming tags for prediction
+- first_data.csv = Initial dataset of popular mobile phones
+- data.py = cleaning process
+- cleaned_mobile_data.csv = Cleaning dataset
+- processor_score.py = score the processor so that it can be calculated
+- analisis_tag.py = Analyzes launched, rumored, and upcoming tags for prediction
+- analisis_launched = result analysis for tag launched
+- analisis_rumored = result analysis for tag rumored
+- analisis_upcoming = result analysis for tag upcoming
 - final.py Predict rumored/upcoming, which analyzes 75% of launched tags
 
 ========== Process Performed ===========
